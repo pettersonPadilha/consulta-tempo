@@ -1,7 +1,7 @@
 # consulta-tempo
 Tempo e temperatura
 
-Nesse projeto buscamos um api 
+Nesse projeto buscamos um api de tempo
 ## config 
 para configurar no seu projeto, cria uma conta, e gera um api 
 
