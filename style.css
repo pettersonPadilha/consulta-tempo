@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
- 
+
  * {
     margin: 0;
     padding: 0;
@@ -13,12 +13,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #58595a;
+    background-color: #020618;
  }
  main {
     padding: 20px;
     border-radius: 5px;
-    max-width: 400px;
+    max-width: 600px;
     width: 100%;
  }
  header {
@@ -29,20 +29,31 @@
  input {
     padding: 5px;
     outline: none;
-    border-radius: 5px;
+    border-radius: 20px;
     font-size: 20px;
     width: 100%;
-    color: rgb(15, 4, 4);
+    color: rgb(0, 0, 0);
+    padding-left: 15px;
+    padding-right: 15px;
  }
  button {
     display: flex;
-    background: transparent;
+    background: rgb(2, 104, 53);
     border: none;
     cursor: pointer;
     outline: none;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+
+    &:hover {
+      background: rgb(1, 163, 82);
+    }
  }
  button i {
-    font-size: 40px;
+    font-size: 30px;
  }
  .content {
     margin-top: 10px;
@@ -51,5 +62,5 @@
  }
  img {
     min-width: 120px;
-    background-image: radial-gradient(rgba(83, 83, 82, 0.4),rgba(216, 101, 172, 0.4) 70%);
+    /* background-image: radial-gradient(rgba(83, 83, 82, 0.4),rgba(216, 101, 172, 0.4) 70%); */
  }
